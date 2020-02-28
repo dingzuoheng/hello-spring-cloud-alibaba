@@ -27,9 +27,15 @@
         </dependency>
         <!-- Spring Boot End -->
         <!-- Spring Cloud Begin -->
+        <!--服务注册与发现-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+        </dependency>
+        <!--配置中心-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
         </dependency>
         <!-- Spring Cloud End -->
 
@@ -38,6 +44,8 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-openfeign</artifactId>
         </dependency>
+
+
     </dependencies>
     <build>
         <plugins>
